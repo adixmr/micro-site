@@ -1,0 +1,26 @@
+{
+  "name": "verak",
+  "version": "1.0.0",
+  "description": "Verak backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya Rajput",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "bcrypt": "^5.0.1",
+    "brcypt": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.7"
+  }
+}
