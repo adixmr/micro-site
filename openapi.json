@@ -288,7 +288,7 @@
     "/user/get": {
       "get": {
         "tags": ["Users"],
-        "summary": "Get all users",
+        "summary": "Get all users (for testing)",
         "responses": {
           "200": {
             "description": "Successful response",
@@ -310,7 +310,12 @@
               "application/json": {}
             }
           }
-        }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
       }
     },
     "/user/followings": {
@@ -324,7 +329,12 @@
               "application/json": {}
             }
           }
-        }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
       }
     }
   }
